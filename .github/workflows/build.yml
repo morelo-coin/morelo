@@ -30,7 +30,6 @@ jobs:
         submodules: recursive
     - uses: eine/setup-msys2@v1
       with:
-        path-type: inherit
         update: true
         install: mingw-w64-x86_64-toolchain make mingw-w64-x86_64-cmake mingw-w64-x86_64-openssl mingw-w64-x86_64-libsodium mingw-w64-x86_64-hidapi mingw-w64-x86_64-libusb mingw-w64-x86_64-libtool mingw-w64-x86_64-icu git automake autoconf patch
     - name: boost
