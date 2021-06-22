@@ -21,7 +21,7 @@ jobs:
     - name: boost
       run: pacman --noconfirm -U https://mirrors.zju.edu.cn/msys2/mingw/x86_64/mingw-w64-x86_64-boost-1.71.0-3-any.pkg.tar.xz
     - name: icu version
-      run: pacman --noconfirm -U https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-icu-68.2-3-any.pkg.tar.zst
+      run: pacman --noconfirm -U https://mirrors.zju.edu.cn/msys2/mingw/x86_64/mingw-w64-x86_64-icu-65.1-1-any.pkg.tar.xz
     - name: build
       run: make release-static-win -j2
     - name: Upload windows artifacts
