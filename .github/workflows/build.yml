@@ -3,22 +3,7 @@ name: continuous-integration/gh-actions/cli
 on: [push, pull_request]
 
 jobs:
-  build-macos:
-    runs-on: macOS-latest
-    steps:
-    - uses: actions/checkout@v2.3.4
-      with:
-        submodules: recursive
-    - name: Install dependencies
-      run: HOMEBREW_NO_AUTOUPDATE=1 brew install autoconf autogen automake binutils coreutils libsodium openssl pkg-config boost hidapi ldns expat libunwind-headers readline
-    - name: build
-      run: make release
-    - name: Upload mac artifacts
-      uses: actions/upload-artifact@master
-      with:
-        name: macos
-        path: 'build/**/**/morelo*'
-
+  
   build-windows:
     runs-on: windows-latest
     defaults:
