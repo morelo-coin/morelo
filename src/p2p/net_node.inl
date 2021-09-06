@@ -462,26 +462,24 @@ namespace nodetool
     std::set<std::string> full_addrs;
     if (nettype == cryptonote::TESTNET)
     {
-      full_addrs.insert("80.60.19.222:47461"); //nl
-      full_addrs.insert("164.68.123.118:47461"); // eu
-      full_addrs.insert("188.68.232.9:47461"); //global
+      full_addrs.insert("80.60.19.222:47461"); //EU
+      full_addrs.insert("13.66.214.75:47461"); // USA
+      full_addrs.insert("41.164.183.230:47461"); //africa
     }
     else if (nettype == cryptonote::STAGENET)
     {
-      full_addrs.insert("80.60.19.222:46461"); //nl
-      full_addrs.insert("164.68.123.118:46461"); //eu
-      full_addrs.insert("188.68.232.9:46461"); //global
+      full_addrs.insert("80.60.19.222:46461"); //EU
+      full_addrs.insert("13.66.214.75:46461"); //USA
+      full_addrs.insert("41.164.183.230:46461"); //Africa
     }
     else if (nettype == cryptonote::FAKECHAIN)
     {
     }
     else
     {
-      full_addrs.insert("80.60.19.222:38411"); //nl sniper
-      full_addrs.insert("164.68.123.118:38411"); //eu a
-      full_addrs.insert("188.68.232.9:38411"); //global kris
-      full_addrs.insert("84.1.59.84:38411"); //cryptosyphon
-      full_addrs.insert("46.29.20.19:38411"); //mssca
+      full_addrs.insert("80.60.19.222:38411"); //EUr
+      full_addrs.insert("13.66.214.75:38411"); //USA
+      full_addrs.insert("41.164.183.230:38411"); //Africa
     }
     return full_addrs;
   }
