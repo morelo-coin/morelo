@@ -465,21 +465,24 @@ namespace nodetool
       full_addrs.insert("80.60.19.222:47461"); //EU
       full_addrs.insert("13.66.214.75:47461"); // USA
       full_addrs.insert("41.164.183.230:47461"); //africa
+      full_addrs.insert("46.101.74.32:47461"); //Europe/London
     }
     else if (nettype == cryptonote::STAGENET)
     {
       full_addrs.insert("80.60.19.222:46461"); //EU
       full_addrs.insert("13.66.214.75:46461"); //USA
       full_addrs.insert("41.164.183.230:46461"); //Africa
+      full_addrs.insert("46.101.74.32:46461"); //Europe/London
     }
     else if (nettype == cryptonote::FAKECHAIN)
     {
     }
     else
     {
-      full_addrs.insert("80.60.19.222:38411"); //EUr
+      full_addrs.insert("80.60.19.222:38411"); //EU
       full_addrs.insert("13.66.214.75:38411"); //USA
       full_addrs.insert("41.164.183.230:38411"); //Africa
+      full_addrs.insert("46.101.74.32:38411"); //Europe/London
     }
     return full_addrs;
   }
