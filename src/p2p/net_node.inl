@@ -463,16 +463,10 @@ namespace nodetool
     if (nettype == cryptonote::TESTNET)
     {
       full_addrs.insert("80.60.19.222:47461"); //EU
-      full_addrs.insert("13.66.214.75:47461"); // USA
-      full_addrs.insert("41.164.183.230:47461"); //africa
-      full_addrs.insert("46.101.74.32:47461"); //Europe/London
     }
     else if (nettype == cryptonote::STAGENET)
     {
       full_addrs.insert("80.60.19.222:46461"); //EU
-      full_addrs.insert("13.66.214.75:46461"); //USA
-      full_addrs.insert("41.164.183.230:46461"); //Africa
-      full_addrs.insert("46.101.74.32:46461"); //Europe/London
     }
     else if (nettype == cryptonote::FAKECHAIN)
     {
@@ -480,9 +474,10 @@ namespace nodetool
     else
     {
       full_addrs.insert("80.60.19.222:38411"); //EU
-      full_addrs.insert("13.66.214.75:38411"); //USA
-      full_addrs.insert("41.164.183.230:38411"); //Africa
-      full_addrs.insert("46.101.74.32:38411"); //Europe/London
+      full_addrs.insert("13.66.214.75:38411"); //BKdilse USA
+      full_addrs.insert("41.164.183.230:38411"); //Kaktus Africa
+      full_addrs.insert("46.101.74.32:38411"); //Baldtrooper  Europe/London
+      full_addrs.insert("165.232.147.108:38411"); //Matt_Ross  USA
     }
     return full_addrs;
   }
