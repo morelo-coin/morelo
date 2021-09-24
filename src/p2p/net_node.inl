@@ -478,6 +478,7 @@ namespace nodetool
       full_addrs.insert("41.164.183.230:38411"); //Kaktus Africa
       full_addrs.insert("46.101.74.32:38411"); //Baldtrooper  Europe/London
       full_addrs.insert("165.232.147.108:38411"); //Matt_Ross  USA
+      full_addrs.insert("68.168.100.208:38411"); //Eadrom  USA	    
     }
     return full_addrs;
   }
