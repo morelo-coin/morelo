@@ -34,7 +34,7 @@ Network properties:
 ## Morelo resources
 
 - Website: http://morelo-network.com/
-- Block Explorer: https://mrl.supportcryptonight.com/
+- Block Explorer: http://mrl.stx.nl:8081/
 - Source: https://github.com/morelo-network/morelo
 - Software: https://github.com/morelo-network/morelo/releases
 - Discord: https://discord.gg/eRZUjdG
