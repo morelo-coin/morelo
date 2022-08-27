@@ -474,6 +474,7 @@ namespace nodetool
     else
     {
       full_addrs.insert("80.60.19.222:38411"); //EU
+      full_addrs.insert("193.123.39.34:38411"); //EU
     }
     return full_addrs;
   }
